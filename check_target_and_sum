@@ -1,0 +1,11 @@
+def check_target(list,target)
+    sum =0
+    list.each do |num|
+        if num == target
+            sum += num
+        end
+    end
+        print "the final sum is #{sum}"
+end
+list = [1,2,3,4,5,4,4,4]
+check_target(list,4)
