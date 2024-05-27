@@ -1,0 +1,9 @@
+def reverse_array(nums)
+    list =[]
+    for i in (nums.length-1).downto(0)
+        list.push(nums[i])
+    end
+    print(list)
+end
+nums = [1,2,4,4,5]
+reverse_array(nums)
