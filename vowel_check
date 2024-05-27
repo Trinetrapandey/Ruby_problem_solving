@@ -1,0 +1,12 @@
+def check_vowel(str1)
+    count =0
+    list = ['a','e','o','i','u']
+    str1.each_char do |chr|
+        if list.include?(chr)
+            count +=1
+        end
+    end
+    print "number of vowels are #{count}\n"
+    print "number of conconant are #{26-count}"
+end
+check_vowel("abcde")
